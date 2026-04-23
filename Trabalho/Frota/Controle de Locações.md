@@ -1,6 +1,6 @@
 # Controle de Locações de Veículos
 **Arquivo fonte:** `ControleLocações.xlsx`
-**Atualizado em:** 30/03/2026
+**Atualizado em:** 23/04/2026
 **Total mensal:** R$ 28.665,97
 
 ---
@@ -9,7 +9,7 @@
 
 | Contrato | Veículo | Placa | Cor | Ano | Início | KM/Tipo | KM Atual | Valor/mês | Status |
 |----------|---------|-------|-----|-----|--------|---------|----------|-----------|--------|
-| 1477 | Fiat Argo Drive 1.0 | TKG-0D51 | Branca | 2024/2025 | 24/04/2025 | 5.000 km | 11.313 | R$ 3.050,00 | ✅ Ativo |
+| 1477 | ~~Fiat Argo Drive 1.0~~ **Fiat Mobi** | TKG-0D51 | Branca | 2024/2025 | 24/04/2025 | 5.000 km | 11.313 | R$ 3.050,00 | ✅ Ativo — Condutor: **David** (técnico) — *trocado para Mobi em 23/04/2026* |
 | 1821 | HB20 1.0 Comfort | GIC-8H94 | Prata | 2024/2025 | 20/10/2025 | KM Livre | 15.775 | R$ 3.650,00 | ✅ Ativo |
 
 **Subtotal VAP/TECVIBRO:** R$ 6.700,00/mês
@@ -18,11 +18,11 @@
 
 ## TECVIBRO — Movida
 
-| Contrato | Veículo | Placa | Início | Vencimento | KM Atual | Valor/mês | Condutor | Local |
-|----------|---------|-------|--------|------------|----------|-----------|---------|-------|
-| 29219997 | Fiat Argo Drive 1.0 6V Flex | TDF5A55 | 13/03/2026 | 13/04/2026 | 25.753 | R$ 3.444,67 | Marcos Vinicius Oliveira Cabral | Maceió - Jatiúca |
-| 29209404 | Corolla Cross XRE 2.0 16V Flex Aut. | TKH5H34 | 12/03/2026 | 13/04/2026 | 54.569 | R$ 6.399,16 | Marco Antonio Carlin | Ribeirão Preto - Castelo Branco |
-| 28599797 | VW Polo Track 1.0 Flex 12V 5P | FZQ5B41 | 17/01/2026 | 16/04/2026 | 27.300 | R$ 8.701,24 | Flavio Dutra Guimaraes | Ribeirão Preto - Castelo Branco |
+| Contrato | Veículo                             | Placa   | Início     | Vencimento | KM Atual | Valor/mês   | Condutor                        | Local                           |
+| -------- | ----------------------------------- | ------- | ---------- | ---------- | -------- | ----------- | ------------------------------- | ------------------------------- |
+| 29219997 | Fiat Argo Drive 1.0 6V Flex         | TDF5A55 | 13/03/2026 | 13/04/2026 | 25.753   | R$ 3.444,67 | Marcos Vinicius Oliveira Cabral | Maceió - Jatiúca                |
+| 29209404 | Corolla Cross XRE 2.0 16V Flex Aut. | TKH5H34 | 12/03/2026 | 13/04/2026 | 54.569   | R$ 6.399,16 | Marco Antonio Carlin            | Ribeirão Preto - Castelo Branco |
+| 28599797 | VW Polo Track 1.0 Flex 12V 5P       | FZQ5B41 | 17/01/2026 | 16/04/2026 | 27.300   | R$ 8.701,24 | Flavio Dutra Guimaraes          | Ribeirão Preto - Castelo Branco |
 
 **Subtotal Movida/TECVIBRO:** R$ 18.545,07/mês
 
