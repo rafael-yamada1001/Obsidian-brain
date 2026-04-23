@@ -1,134 +1,127 @@
-# Engenharia de Dados — Plano de Estudos
+# Engenharia de Dados — Plano Estratégico
 
-## Meta Principal
-Concluir o curso completo de Engenharia de Dados e estar pronto para o mercado de trabalho.
-
-- **Início:** 2026-04-28
-- **Previsão de conclusão:** 2026-08-14 (~16 semanas)
-- **Carga:** 3h/dia | Seg–Sex | 15h/semana
+**Curso:** [Formação Engenharia de Dados: Domine Big Data 2026](https://www.udemy.com/course/engenheiro-de-dados/)
+**Ritmo:** Flexível — sessões paralelas ao trabalho
+**Carga sugerida:** 2–3 sessões/dia de 30–60 min cada
 
 ---
 
-## Horário Diário Sugerido
-| Bloco | Horário | Atividade |
-|-------|---------|-----------|
-| 🧠 Foco 1 | 19:00 – 20:30 | Aula + anotações |
-| ☕ Pausa | 20:30 – 20:45 | Descanso |
-| 💻 Foco 2 | 20:45 – 22:00 | Prática / exercícios |
+## Por que essa ordem importa
 
-> Ajuste os horários conforme sua rotina. O importante é manter os blocos separados: teoria → pausa → prática.
+```
+Fundamentos → SQL → Python → Dimensional → DW/Lake
+                                              ↓
+                    NoSQL ←── Spark ←── Hadoop
+                                              ↓
+                              ETL → Streaming → Projetos
+```
 
----
-
-## Cronograma por Módulo
-
-| # | Módulo | Período | Status |
-|---|--------|---------|--------|
-| 1 | Conceitos e Fundamentos | 28/04 – 02/05 | ⬜ Não iniciado |
-| 2 | Modelo Relacional e SQL | 05/05 – 16/05 | ⬜ Não iniciado |
-| 3 | Modelo Dimensional | 19/05 – 23/05 | ⬜ Não iniciado |
-| 4 | Data Warehouse e Data Lake | 26/05 – 30/05 | ⬜ Não iniciado |
-| 5 | NoSQL (MongoDB + Redis) | 02/06 – 06/06 | ⬜ Não iniciado |
-| 6 | Ecossistema Hadoop | 09/06 – 13/06 | ⬜ Não iniciado |
-| 7 | Apache Spark | 16/06 – 27/06 | ⬜ Não iniciado |
-| 8 | Python para Dados | 30/06 – 11/07 | ⬜ Não iniciado |
-| 9 | Streaming (Real Time) | 14/07 – 18/07 | ⬜ Não iniciado |
-| 10 | ETL e Data Crawlers | 21/07 – 25/07 | ⬜ Não iniciado |
-| 11 | CLI AWS | 28/07 – 30/07 | ⬜ Não iniciado |
-| 12 | Projeto 1 — Data Lake | 31/07 – 08/08 | ⬜ Não iniciado |
-| 13 | Projeto 2 — Pipeline ETL | 11/08 – 14/08 | ⬜ Não iniciado |
+Cada módulo é pré-requisito do próximo. Não pule etapas.
 
 ---
 
-## Ferramentas do Curso
-- **Banco de Dados:** PostgreSQL, MongoDB, Redis
-- **Cloud AWS:** S3, EC2, RDS, Redshift, Kinesis, Glue, Athena
-- **Big Data:** Hadoop, Spark, Databricks
-- **Linguagem:** Python
+## Trilha Estratégica
+
+### 🟦 FASE 1 — Base (Semanas 1–3)
+> Sem essa base, nada à frente faz sentido.
+
+| # | Módulo | Foco |
+|---|--------|------|
+| 1 | Conceitos e Fundamentos | OLTP vs OLAP, papel do DE, tipos de dados |
+| 2 | Cloud + CLI AWS | Criar conta AWS, navegar no console, AWS CLI básico |
+| 3 | Modelo Relacional e SQL | SELECT, JOIN, agregações, Window Functions no PostgreSQL |
+
+**Meta da fase:** Conseguir responder queries SQL complexas e navegar na AWS sem travar.
 
 ---
 
-## Metas por Módulo
+### 🟨 FASE 2 — Fundação Técnica (Semanas 4–6)
+> Aqui você vira produtivo com código e modelos de dados.
 
-### Módulo 1 — Conceitos e Fundamentos
-- [ ] Papel do Engenheiro de Dados
-- [ ] Tipos de dados (estruturado, semi, não estruturado)
-- [ ] Diferença entre OLTP e OLAP
+| # | Módulo | Foco |
+|---|--------|------|
+| 4 | Python para Engenharia de Dados | Pandas, conexão com DBs, automação de tarefas |
+| 5 | Modelo Dimensional | Star Schema, Fato vs Dimensão, construir um DW simples |
 
-### Módulo 2 — Modelo Relacional e SQL
-- [ ] CRUD completo
-- [ ] JOINs (INNER, LEFT, RIGHT, FULL)
-- [ ] Agregações e Window Functions
-- [ ] Praticar no PostgreSQL
-
-### Módulo 3 — Modelo Dimensional
-- [ ] Star Schema e Snowflake Schema
-- [ ] Diferença entre Fato e Dimensão
-- [ ] Construir modelo dimensional simples
-
-### Módulo 4 — Data Warehouse e Data Lake
-- [ ] DW vs Data Lake vs Lakehouse
-- [ ] Configurar Redshift na AWS
-- [ ] Armazenamento colunar e particionamento
-
-### Módulo 5 — NoSQL
-- [ ] CRUD no MongoDB
-- [ ] Redis como cache (chave-valor)
-- [ ] Quando usar NoSQL vs Relacional
-
-### Módulo 6 — Hadoop
-- [ ] HDFS e MapReduce
-- [ ] Ecossistema: Hive, HBase, Sqoop
-- [ ] Por que o Spark substituiu o MapReduce
-
-### Módulo 7 — Apache Spark
-- [ ] RDDs, DataFrames e Datasets
-- [ ] Spark SQL
-- [ ] Transformações vs Ações
-- [ ] Praticar no Databricks
-
-### Módulo 8 — Python para Dados
-- [ ] Pandas para manipulação
-- [ ] Conexão com bancos (SQLAlchemy, pymongo)
-- [ ] Automação de pipelines
-
-### Módulo 9 — Streaming
-- [ ] Real Time vs Near Real Time
-- [ ] AWS Kinesis na prática
-- [ ] Casos de uso reais
-
-### Módulo 10 — ETL e Data Crawlers
-- [ ] Pipeline ETL do zero
-- [ ] AWS Glue e Athena
-- [ ] Orquestração básica
-
-### Módulo 11 — CLI AWS
-- [ ] AWS CLI configurado
-- [ ] Gerenciar serviços via terminal
-
-### Projeto 1 — Data Lake
-- [ ] Arquitetura definida
-- [ ] Ingestão funcionando
-- [ ] Camadas Bronze / Silver / Gold
-- [ ] Documentado no vault
-
-### Projeto 2 — Pipeline ETL
-- [ ] Fonte de dados definida
-- [ ] Transformações implementadas
-- [ ] Pipeline de ponta a ponta
-- [ ] Documentado no vault
+**Meta da fase:** Escrever um script Python que lê dados, transforma e carrega em um banco.
 
 ---
 
-## Progresso Geral
-- Módulos concluídos: 0 / 13
-- Horas estudadas: 0h
-- Última sessão: —
+### 🟧 FASE 3 — Armazenamento Moderno (Semanas 7–9)
+> Onde os dados vivem em produção.
+
+| # | Módulo | Foco |
+|---|--------|------|
+| 6 | Data Warehouse Moderno | Redshift, armazenamento colunar, particionamento |
+| 7 | Data Lake | S3, camadas Bronze/Silver/Gold, formato Parquet |
+| 8 | NoSQL | MongoDB (documentos), Redis (cache/chave-valor) |
+
+**Meta da fase:** Ter dados fluindo do S3 para o Redshift com transformação básica.
 
 ---
 
-## Regras Pessoais
-1. Praticar todo dia — mesmo que seja 30 min
-2. Anotar dúvidas aqui antes de pesquisar
-3. Documentar cada projeto no vault
-4. Revisar o módulo anterior toda segunda antes de avançar
+### 🟥 FASE 4 — Big Data e Processamento (Semanas 10–13)
+> O coração da engenharia de dados em escala.
+
+| # | Módulo | Foco |
+|---|--------|------|
+| 9 | Ecossistema Hadoop | HDFS, MapReduce, Hive — entender a história |
+| 10 | Apache Spark | DataFrames, Spark SQL, transformações, Databricks |
+| 11 | ETL e Data Crawlers | AWS Glue, Athena, pipelines de extração e carga |
+| 12 | Streaming | Kinesis, Real Time vs Near Real Time, casos de uso |
+
+**Meta da fase:** Processar um dataset grande no Databricks com Spark e entregar no Data Lake.
+
+---
+
+### 🟩 FASE 5 — Projetos Finais (Semanas 14–16)
+> Portfólio real para mostrar no mercado.
+
+| # | Projeto | Descrição |
+|---|---------|-----------|
+| P1 | Construção de um Data Lake | Ingestão → Bronze → Silver → Gold no S3 |
+| P2 | Pipeline ETL Completo | Extração → Transformação → Carga com Python + Glue |
+
+**Meta da fase:** Dois projetos documentados no GitHub + vault prontos para portfólio.
+
+---
+
+## Ferramentas por Fase
+
+| Fase | Ferramentas |
+|------|-------------|
+| Base | PostgreSQL, AWS Console, AWS CLI |
+| Fundação | Python, Pandas, SQLAlchemy |
+| Armazenamento | S3, Redshift, RDS, MongoDB, Redis |
+| Big Data | Hadoop, Spark, Databricks, Glue, Athena, Kinesis |
+| Projetos | Tudo acima integrado |
+
+---
+
+## Como estudar de forma flexível (sem horário fixo)
+
+- **Sessão curta (30 min):** Assistir aula + anotar conceito principal
+- **Sessão média (1h):** Aula + reproduzir o exemplo prático
+- **Sessão longa (2h+):** Módulo completo + exercício próprio
+
+> Dica: use o campo "Última sessão" abaixo para não perder o fio. Antes de abrir o curso, releia a última anotação.
+
+---
+
+## Progresso
+
+| Fase | Status | Última sessão |
+|------|--------|---------------|
+| 1 — Base | ⬜ Não iniciada | — |
+| 2 — Fundação Técnica | ⬜ Não iniciada | — |
+| 3 — Armazenamento Moderno | ⬜ Não iniciada | — |
+| 4 — Big Data | ⬜ Não iniciada | — |
+| 5 — Projetos | ⬜ Não iniciada | — |
+
+- **Horas totais:** 0h
+- **Módulos concluídos:** 0 / 12
+
+---
+
+## Notas de Estudo
+> Crie uma nota por módulo: ex. [[SQL]], [[Spark]], [[ETL]]
