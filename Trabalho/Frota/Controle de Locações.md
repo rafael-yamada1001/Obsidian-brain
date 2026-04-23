@@ -7,10 +7,10 @@
 
 ## TECVIBRO — VAP
 
-| Contrato | Veículo | Placa | Cor | Ano | Início | KM/Tipo | KM Atual | Valor/mês | Status |
-|----------|---------|-------|-----|-----|--------|---------|----------|-----------|--------|
-| 1477 | ~~Fiat Argo Drive 1.0~~ **Fiat Mobi** | TKG-0D51 | Branca | 2024/2025 | 24/04/2025 | 5.000 km | 11.313 | R$ 3.050,00 | ✅ Ativo — Condutor: **David** (técnico) — *trocado para Mobi em 23/04/2026* |
-| 1821 | HB20 1.0 Comfort | GIC-8H94 | Prata | 2024/2025 | 20/10/2025 | KM Livre | 15.775 | R$ 3.650,00 | ✅ Ativo |
+| Contrato | Veículo                               | Placa    | Cor    | Ano       | Início     | KM/Tipo  | KM Atual | Valor/mês   | Status                                                                      |
+| -------- | ------------------------------------- | -------- | ------ | --------- | ---------- | -------- | -------- | ----------- | --------------------------------------------------------------------------- |
+| 1477     | ~~Fiat Argo Drive 1.0~~ **Fiat Mobi** | TKG-0D51 | Branca | 2024/2025 | 24/04/2025 | 5.000 km | 11.313   | R$ 3.050,00 | ✅ Ativo — Condutor: **David** (técnico) — *trocado para Mobi em 23/04/2026* |
+| 1821     | HB20 1.0 Comfort                      | GIC-8H94 | Prata  | 2024/2025 | 20/10/2025 | KM Livre | 15.775   | R$ 3.650,00 | ✅ Ativo                                                                     |
 
 **Subtotal VAP/TECVIBRO:** R$ 6.700,00/mês
 
@@ -30,9 +30,9 @@
 
 ## VIBROTEC — Movida
 
-| Contrato | Veículo | Placa | Início | Vencimento | KM Atual | Valor/mês | Condutor | Local |
-|----------|---------|-------|--------|------------|----------|-----------|---------|-------|
-| 29092872 | Renault Kwid Zen 1.0 Flex 12V 5P | TJN5F01 | 26/02/2026 | 02/04/2026 | 47.607 | R$ 3.420,90 | Rogerio Rodrigo Festucci | Ribeirão Preto - Aeroporto |
+| Contrato | Veículo                           | Placa   | Início     | Vencimento | KM Atual | Valor/mês   | Condutor                 | Local                      |
+| -------- | --------------------------------- | ------- | ---------- | ---------- | -------- | ----------- | ------------------------ | -------------------------- |
+| 29092872 | Renault Kwid Zen 1.0 Flex 12V 5P  | TJN5F01 | 26/02/2026 | 02/04/2026 | 47.607   | R$ 3.420,90 | Rogerio Rodrigo Festucci | Ribeirão Preto - Aeroporto |
 
 **Subtotal Movida/VIBROTEC:** R$ 3.420,90/mês
 
