@@ -36,7 +36,7 @@
 ### 🟦 FASE 1 — Fundação (~6h de vídeo)
 > Contexto + ambiente configurado. Não avance sem ter a AWS funcionando.
 
-- [x] **Seção 1 — Introdução** *(1h 42min)* ✅ 2026-04-23 → [[Seção 1 - Introdução]]
+- [x] **Seção 1 — Introdução** *(1h 42min)* ✅ 2026-04-23 → [[Seção 1 - Introdução]] · 🗺️ [[Seção 1 - Introdução.canvas|Canvas]]
   - O que faz um Engenheiro de Dados
   - Diferença DE vs DS vs DBA
 - [ ] **Seção 2 — Aspectos Gerais** *(2h 52min)*
