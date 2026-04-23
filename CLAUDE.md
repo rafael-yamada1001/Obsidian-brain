@@ -25,6 +25,7 @@
 00-Inbox/          → captura rápida, triage depois
 Trabalho/          → processos e controles profissionais
   Frota/           → locações e veículos de técnicos
+Metas/             → metas com prazos (curto / médio / longo prazo)
 Diario/            → notas diárias (formato AAAA-MM-DD.md)
 Projetos/          → projetos com início e fim definidos
 Estudos/           → trilhas de aprendizado organizadas por área
@@ -61,6 +62,7 @@ Recursos/          → referências, links, ferramentas
 | `/estudo` | Inicia sessão de estudo (lê plano + pergunta onde parou) |
 | `/revisao` | Encerra sessão de estudo e salva o que foi aprendido |
 | `/tldr` | Resume a conversa atual em bullet points |
+| `/meta` | Revisão semanal de metas + atualiza progresso |
 
 ## Preferências
 - Responder sempre em português (pt-br)
