@@ -36,7 +36,7 @@
 ### 🟦 FASE 1 — Fundação (~6h de vídeo)
 > Contexto + ambiente configurado. Não avance sem ter a AWS funcionando.
 
-- [ ] **Seção 1 — Introdução** *(1h 42min)*
+- [x] **Seção 1 — Introdução** *(1h 42min)* ✅ 2026-04-23 → [[Seção 1 - Introdução]]
   - O que faz um Engenheiro de Dados
   - Diferença DE vs DS vs DBA
 - [ ] **Seção 2 — Aspectos Gerais** *(2h 52min)*
@@ -165,7 +165,7 @@ Após cada seção, crie uma nota filha com o que aprendeu:
 
 | Fase | Seções | Status | Última sessão |
 |------|--------|--------|---------------|
-| 🟦 1 — Fundação | 1, 2, 3, 4 | ⬜ Não iniciada | — |
+| 🟦 1 — Fundação | 1, 2, 3, 4 | 🔄 Em andamento | 2026-04-23 |
 | 🟨 2 — Dados Relacionais | 5, 6, 7 | ⬜ Não iniciada | — |
 | 🟧 3 — NoSQL | 8, 9, 10 | ⬜ Não iniciada | — |
 | 🟥 4 — Big Data | 11, 12, 13 | ⬜ Não iniciada | — |
