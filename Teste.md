@@ -1,1 +1,0 @@
-Aqui estou testando para listar com o claude code
