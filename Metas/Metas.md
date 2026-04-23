@@ -57,9 +57,38 @@
 - [ ] Completar Nível 4 — Times de Agentes → **31/08/2026**
 
 ### Pessoal / Profissional
-- [ ] *(adicione suas metas aqui)*
-- [ ] *(ex: certificação AWS Cloud Practitioner?)*
-- [ ] *(ex: atualizar LinkedIn com novas skills?)*
+- [ ] Certificação AWS Cloud Practitioner → **31/10/2026**
+- [ ] Atualizar LinkedIn com novas skills de dados → **14/08/2026**
+- [ ] *(adicione suas metas profissionais aqui)*
+
+---
+
+## 💪 Metas Pessoais
+
+### Saúde e Corpo
+**Meta:** Academia 4x por semana de forma consistente
+
+#### Submetas progressivas
+| Fase | Submeta | Prazo | Status |
+|------|---------|-------|--------|
+| 1 | Ir 2x/semana por 30 dias seguidos | 23/05/2026 | ⬜ |
+| 2 | Ir 3x/semana por 30 dias seguidos | 23/06/2026 | ⬜ |
+| 3 | Ir 4x/semana por 30 dias seguidos | 23/07/2026 | ⬜ |
+| 4 | Manter 4x/semana como hábito consolidado | — | ⬜ |
+
+#### Checklist semanal — Academia
+| Semana | Seg | Ter | Qua | Qui | Sex | Sáb | Total |
+|--------|-----|-----|-----|-----|-----|-----|-------|
+| 20–26/04 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0/4 |
+| 27/04–03/05 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0/4 |
+| 04–10/05 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 0/4 |
+
+> Semanas com ≥4 idas = semana perfeita 🏆
+
+### Outras Metas Pessoais
+- [ ] *(ex: leitura — X livros até final do ano?)*
+- [ ] *(ex: finanças — meta de economia mensal?)*
+- [ ] *(adicione aqui)*
 
 ---
 
