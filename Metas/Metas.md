@@ -87,8 +87,8 @@
 
 ### Outras Metas Pessoais
 - [ ] *(ex: leitura — X livros até final do ano?)*
-- [ ] *(ex: finanças — meta de economia mensal?)*
-- [ ] *(adicione aqui)*
+- [ ] *Finanças — Investimentos de 20.000?*
+- [ ] *Ganhar melhor(meta R$ 5.000 - Até final do ano)*
 
 ---
 
