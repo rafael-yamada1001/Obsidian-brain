@@ -6,6 +6,14 @@
 - **Perfil:** Profissional com liberdade no trabalho, estudando Engenharia de Dados em paralelo
 - **Objetivo:** Transição/especialização em Engenharia de Dados + dominar IA como ferramenta
 
+## Trabalho
+- **Empresas:** TECVIBRO / VIBROTEC / VibroTech
+- **Área de atuação:** Gestão de frota, locação de veículos, controle de técnicos de campo
+- **Controles ativos:**
+  - Frota locada → `Trabalho/Frota/Controle de Locações.md` (9 veículos, R$28.665,97/mês)
+  - Veículos de técnicos → `Trabalho/Frota/Frotas Técnicos.md` (3 técnicos, veículos particulares)
+- **Locadoras:** VAP, Movida, Localiza
+
 ## Estudos Ativos
 - **Curso principal:** Formação Engenharia de Dados: Domine Big Data 2026 (Udemy)
 - **Trilha paralela:** IA e Prompt Engineering
@@ -15,6 +23,8 @@
 ## Estrutura do Vault
 ```
 00-Inbox/          → captura rápida, triage depois
+Trabalho/          → processos e controles profissionais
+  Frota/           → locações e veículos de técnicos
 Diario/            → notas diárias (formato AAAA-MM-DD.md)
 Projetos/          → projetos com início e fim definidos
 Estudos/           → trilhas de aprendizado organizadas por área
