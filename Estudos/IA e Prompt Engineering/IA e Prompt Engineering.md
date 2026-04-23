@@ -41,13 +41,30 @@
 
 ---
 
-### 🟥 Nível 4 — Ferramentas e Ecossistema
+### 🟥 Nível 4 — Times de Agentes e Ecossistema
 
-- [ ] Claude Code (terminal) — como usar no dia a dia
+- [ ] Claude Code (terminal) — como usar no dia a dia ← *você já usa!*
 - [ ] API da Anthropic / OpenAI — conceitos básicos
 - [ ] LangChain / LlamaIndex — o que são e quando usar
 - [ ] RAG (Retrieval Augmented Generation) — IA + base de dados
 - [ ] IA em pipelines de dados (automação inteligente)
+
+#### 🌟 Recurso Principal — Times de Agentes
+> **[Montei uma EMPRESA Inteira de Agentes de IA (Paperclip + Claude Code)](https://www.youtube.com/watch?v=Ap_5wtWWEC0)**
+>
+> Como orquestrar múltiplos agentes de IA com **Paperclip + Claude Code** para automatizar tarefas complexas em paralelo — como se fosse uma empresa inteira de IAs trabalhando juntas.
+>
+> **Por que assistir:** você já usa Claude Code. Paperclip é o próximo passo — coordena times de agentes para tarefas que um único agente não resolve bem.
+>
+> **Aplicação em Dados:**
+> - Agente 1: monitora qualidade dos dados no pipeline
+> - Agente 2: detecta anomalias e dispara alertas
+> - Agente 3: documenta automaticamente as transformações
+> - Agente 4: gera relatórios e atualiza o vault
+
+- [ ] Assistir o vídeo
+- [ ] Instalar e testar o Paperclip
+- [ ] Criar um time simples de 2 agentes para uma tarefa do curso
 
 ---
 
