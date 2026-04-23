@@ -1,4 +1,4 @@
-﻿# Recursos
+# Recursos
 
 Links, artigos, ferramentas e referencias uteis.
 
