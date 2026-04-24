@@ -48,6 +48,13 @@ Empresa de auto peças de médio porte em Sertãozinho, já com clientela estabe
 
 **Hostinger** é uma opção de custo inicial baixo para criar uma loja simples com até 1.000 produtos, domínio grátis no primeiro ano, e-mail e recursos de IA. Atenção: o preço promocional exige contratação longa e pagamento do período completo; a renovação informada fica perto de R$ 64,99/mês. Boa para teste/vitrine com vendas simples, mas menos especializada em e-commerce brasileiro e autopeças do que Tray.
 
+### Diferença entre Hostinger Criador de Sites e Hostinger Horizons
+
+- **Hostinger Criador de Sites / Loja Virtual:** ferramenta visual, sem código, feita para sites, landing pages e lojas online. É a opção mais adequada caso a ideia seja montar uma loja virtual simples com produtos, páginas, pagamento e gestão básica.
+- **Hostinger Horizons:** ferramenta de IA para criar aplicações web por prompt, com código gerado, login, banco de dados, dashboards, portais e ferramentas personalizadas. Também pode vender produtos em alguns planos, mas não é a opção mais direta para uma loja comum de autopeças.
+
+Para a Jules Rimet, se for usar Hostinger, priorizar **Criador de Sites / Loja Virtual**, não Horizons.
+
 **Shopify** não deve ser prioridade agora: é forte, mas cobra em dólar, pode depender de apps pagos e não nasce tão adaptada ao Brasil quanto Tray/Nuvemshop.
 
 **WooCommerce** só faria sentido se o cliente quisesse algo muito personalizado. Para este projeto aumenta manutenção, risco técnico e dependência do desenvolvedor.
@@ -198,3 +205,4 @@ Deixar fora do valor:
 | 2026-04-24 | Recalibragem da proposta considerando os planos Loja Pronta da Tray |
 | 2026-04-24 | Planejamento alternativo com plano Tray Crescimento de R$ 85/mês |
 | 2026-04-24 | Avaliação da Hostinger como opção barata para teste inicial |
+| 2026-04-24 | Diferenciação entre Hostinger Criador de Sites/Loja Virtual e Hostinger Horizons |
