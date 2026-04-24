@@ -146,3 +146,77 @@ Estou planejando uma loja virtual para a Jules Rimet com foco em vender autopeç
 Minha recomendação é usar a Loja Pronta da Tray para reduzir custo e acelerar o lançamento. A Tray cuida de boa parte da montagem técnica, e eu ficaria responsável por acompanhar o processo pelo lado da empresa, organizar as informações, revisar o catálogo, ajudar nas decisões e validar se a loja ficou pronta para vender.
 
 Assim a empresa não paga por um desenvolvimento do zero e ainda tem alguém acompanhando para evitar erro de categoria, produto mal cadastrado, frete mal configurado ou loja lançada sem uma operação clara.
+
+---
+
+## Atualização 2026-04-24 — Proposta com Hostinger
+
+### Nova direção comercial
+
+O cliente demonstrou interesse em começar pela **Hostinger Criador de Sites e eCommerce**, priorizando baixo custo, rapidez e validação do canal online.
+
+A proposta deve ser reposicionada como **criação/configuração de loja virtual enxuta + organização inicial do catálogo + suporte de lançamento**, e não como implantação Tray.
+
+### Escopo sugerido para proposta enxuta
+
+Entregas incluídas:
+
+- configuração inicial da loja na Hostinger;
+- aplicação da identidade visual da Jules Rimet com base na logo;
+- criação da home;
+- criação das páginas institucionais principais;
+- estruturação das categorias iniciais;
+- cadastro/importação inicial de 50 a 100 produtos, conforme planilha e fotos enviadas pelo cliente;
+- configuração de WhatsApp visível;
+- configuração de pagamento, frete e retirada local conforme recursos disponíveis;
+- teste de compra em desktop e celular;
+- orientação básica para a equipe operar pedidos e lançar manualmente no ERP;
+- apoio no lançamento pelo Instagram.
+
+Fora do escopo inicial:
+
+- integração customizada com ERP;
+- cadastro manual de grande volume fora dos 50 a 100 produtos combinados;
+- tratamento avançado de fotos;
+- anúncios pagos;
+- produção contínua de conteúdo;
+- gestão diária da loja;
+- migração futura para outra plataforma.
+
+### Modelo de cobrança recomendado
+
+Não aceitar trabalhar apenas por comissão.
+
+Modelo recomendado:
+
+1. **Implantação/criação inicial:** R$ 1.200 a R$ 2.000.
+2. **Suporte mensal mínimo:** R$ 300 a R$ 600/mês.
+3. **Comissão sobre vendas confirmadas:** negociar percentual apenas se houver contrato claro.
+
+A comissão deve considerar somente vendas efetivamente pagas e não canceladas/devolvidas. A apuração precisa ser mensal, com relatório simples dos pedidos originados no site.
+
+### Argumento para o cliente
+
+A Hostinger reduz o custo da plataforma, mas ainda existe trabalho importante de organização: montar a loja, deixar o visual profissional, estruturar categorias, preparar produtos, configurar WhatsApp, pagamento, frete, retirada local e testar o fluxo de compra. Esse trabalho evita que a loja seja lançada como uma vitrine incompleta ou difícil de operar.
+
+### Proposta base para apresentar
+
+**Implantação da loja Jules Rimet Autopeças na Hostinger**
+
+Valor sugerido: **R$ 1.500** pela configuração inicial, considerando até 100 produtos no lançamento.
+
+Inclui:
+
+- loja configurada na Hostinger;
+- identidade visual aplicada;
+- páginas principais;
+- categorias iniciais;
+- até 100 produtos cadastrados/importados a partir de planilha organizada;
+- WhatsApp visível;
+- frete, retirada local e pagamentos configurados;
+- teste final de compra;
+- orientação básica de operação.
+
+Suporte pós-lançamento sugerido: **R$ 400/mês**, com pequenos ajustes, dúvidas, acompanhamento de pedidos/site e melhorias pontuais.
+
+Comissão sobre vendas: negociar em contrato separado ou como complemento ao suporte, nunca como única remuneração.

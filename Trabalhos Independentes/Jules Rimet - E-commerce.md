@@ -206,3 +206,167 @@ Deixar fora do valor:
 | 2026-04-24 | Planejamento alternativo com plano Tray Crescimento de R$ 85/mês |
 | 2026-04-24 | Avaliação da Hostinger como opção barata para teste inicial |
 | 2026-04-24 | Diferenciação entre Hostinger Criador de Sites/Loja Virtual e Hostinger Horizons |
+
+---
+
+## Atualização 2026-04-24 — Direção com Hostinger
+
+### Decisão atual
+
+A plataforma escolhida para iniciar a validação do canal online será o **Hostinger Criador de Sites e eCommerce**.
+
+Motivos da escolha:
+
+- custo inicial baixo;
+- montagem rápida;
+- recursos de IA;
+- operação simples para uma primeira loja;
+- boa opção para validar vendas online antes de investir em Tray, Nuvemshop ou solução mais robusta.
+
+Observação: manter a consciência de que a Hostinger é uma escolha de **MVP comercial**. Se a loja crescer, tiver muitos filtros por veículo, necessidade de marketplace ou integração com ERP, reavaliar migração futura para Tray/Nuvemshop ou plataforma mais especializada.
+
+### Escopo da primeira versão
+
+- Loja virtual enxuta, bonita e funcional.
+- Início com **50 a 100 produtos principais**.
+- Catálogo planejado para crescer até cerca de **500 produtos** na primeira fase.
+- Pedidos do site serão lançados manualmente no ERP próprio da empresa.
+- WhatsApp deve ficar muito visível para dúvidas antes da compra e confirmação de compatibilidade.
+- Site precisa funcionar muito bem no celular.
+
+### Direção visual
+
+Referência principal: logo atual da Jules Rimet Autopeças.
+
+Direção sugerida:
+
+- base escura ou grafite para transmitir força e tecnologia;
+- azul vivo como cor principal da marca;
+- amarelo como cor de destaque para preço, CTA e pontos de confiança;
+- branco/cinza claro para leitura;
+- visual moderno, confiável, direto e sem poluição;
+- linguagem de autopeças: performance, confiança, agilidade, qualidade e facilidade de compra.
+
+Paleta inicial sugerida:
+
+| Uso | Cor |
+|---|---|
+| Azul principal | #0077FF |
+| Amarelo destaque | #FFC400 |
+| Fundo escuro | #07111F |
+| Grafite | #111827 |
+| Branco | #FFFFFF |
+| Cinza texto | #D1D5DB |
+
+### Estrutura da loja
+
+Páginas principais:
+
+- Início
+- Produtos / Loja
+- Categorias
+- Sobre a Jules Rimet
+- Contato / WhatsApp
+- Frete e retirada local
+- Trocas e devoluções
+- Política de privacidade
+
+Blocos sugeridos para a home:
+
+1. Hero com chamada forte para a loja de autopeças.
+2. Busca ou botão para ver produtos.
+3. Categorias principais.
+4. Produtos em destaque.
+5. Faixa de confiança: qualidade, confiança e agilidade.
+6. Retirada local em Sertãozinho e envio para região/Brasil, conforme configuração final.
+7. CTA para WhatsApp.
+
+Categorias iniciais:
+
+- Freios
+- Suspensão
+- Motor
+- Filtros
+- Elétrica
+- Acessórios
+- Óleo e Lubrificantes
+- Palhetas
+- Baterias
+- Correias
+
+### Cadastro de produtos
+
+Campos importantes na planilha inicial:
+
+- Nome do produto
+- Categoria
+- Marca
+- Código da peça / SKU
+- Preço
+- Estoque
+- Fotos
+- Descrição curta
+- Aplicação / compatibilidade, quando possível
+- Observações internas
+
+Prioridade: começar pelos produtos com maior giro, melhor margem, melhor disponibilidade e menor risco de erro de aplicação.
+
+### Configurações essenciais
+
+- Pagamentos: Pix, cartão e boleto, conforme recursos da Hostinger/gateway escolhido.
+- Frete: configurar opções disponíveis e validar cálculo antes do lançamento.
+- Retirada local: habilitar retirada na loja em Sertãozinho-SP.
+- WhatsApp: botão fixo e chamadas nos produtos para confirmar compatibilidade.
+- Checkout: testar compra completa em desktop e celular.
+- ERP: criar rotina manual para lançar pedidos confirmados no sistema próprio.
+
+### Tarefas concluídas
+
+- [x] Definição do cliente, segmento e objetivo.
+- [x] Escolha inicial da plataforma: Hostinger Criador de Sites e eCommerce.
+- [x] Definição de MVP com 50 a 100 produtos principais.
+- [x] Definição de categorias iniciais.
+- [x] Direção visual inicial baseada na logo.
+- [x] Definição de operação manual com ERP próprio.
+- [x] Necessidade de WhatsApp visível confirmada.
+
+### Pendências
+
+- [ ] Confirmar plano exato contratado na Hostinger.
+- [ ] Confirmar domínio que será usado.
+- [ ] Levantar WhatsApp Business oficial.
+- [ ] Validar meios de pagamento disponíveis na conta Hostinger.
+- [ ] Validar opções de frete e retirada local.
+- [ ] Receber planilha/fotos dos primeiros 50 a 100 produtos.
+- [ ] Definir produtos prioritários para lançamento.
+- [ ] Criar textos institucionais: Sobre, Frete, Trocas e Contato.
+- [ ] Montar primeira versão da home.
+- [ ] Testar checkout no celular.
+- [ ] Planejar divulgação no Instagram.
+
+### Próximos passos
+
+1. Contratar/confirmar plano da Hostinger com eCommerce.
+2. Separar acesso administrativo e domínio.
+3. Definir layout inicial com base na logo.
+4. Criar páginas principais.
+5. Preparar planilha padrão de produtos.
+6. Cadastrar/importar os 50 a 100 produtos principais.
+7. Configurar WhatsApp, frete, retirada e pagamento.
+8. Fazer compra teste.
+9. Lançar no Instagram com campanha simples.
+
+### Modelo comercial
+
+Não trabalhar somente por comissão. O modelo sugerido é:
+
+- valor fixo de criação/configuração inicial;
+- suporte mensal mínimo para ajustes e acompanhamento;
+- comissão sobre vendas confirmadas vindas do site, se fizer sentido para ambas as partes;
+- contrato simples deixando claro escopo, prazo, responsabilidades, critérios de comissão e forma de apuração.
+
+Sugestão inicial a amadurecer:
+
+- Criação/configuração da loja: R$ 1.200 a R$ 2.000, dependendo do volume de produtos e do quanto será feito manualmente.
+- Suporte mensal mínimo: R$ 300 a R$ 600/mês.
+- Comissão: percentual sobre vendas confirmadas pelo site, após cancelamentos/devoluções, com relatório mensal.
