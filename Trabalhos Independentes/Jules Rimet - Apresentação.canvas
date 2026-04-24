@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"central","type":"text","text":"# 🏪 Jules Rimet\n## E-commerce de Auto Peças\n\n**Sertãozinho — SP**\n\nEmpresa já estabelecida, com clientes e presença no Instagram.\nObjetivo: escalar vendas para o online.\n\n📅 Início: 2026-04-23\n🟡 Status: Em planejamento","x":-260,"y":-140,"width":520,"height":300,"color":"3"},
+		{"id":"plataformas","type":"text","text":"## 🖥️ Plataformas em Avaliação\n\n| Plataforma | Preço/mês | Indicação |\n|---|---|---|\n| **Tray** | R$ 79–499 | ⭐ 1ª opção |\n| **Nuvemshop** | R$ 99–499 | ⭐ 2ª opção |\n| Shopify | US$ 29–79 | — |\n| Loja Integrada | Grátis–R$ 499 | — |\n| WooCommerce | ~R$ 50 | — |\n\n**Tray** recomendada: suporta catálogos grandes, infraestrutura BR, suporte PT-BR.","x":-960,"y":-400,"width":580,"height":300,"color":"5"},
+		{"id":"escopo","type":"text","text":"## 📋 Escopo do Projeto\n\n**Catálogo:** 200–2.000 itens\n**Importação:** planilha CSV\n**ERP:** lançamento manual (sem integração)\n**Pagamentos:** Pix · Boleto · Cartão\n**Frete:** Correios · Jadlog · Retirada local\n**Instagram Shopping:** integrar desde o início","x":440,"y":-400,"width":480,"height":260,"color":"4"},
+		{"id":"fases","type":"text","text":"## 🗺️ Fases do Projeto\n\n**Fase 1 — Plataforma**\nEscolher e configurar a plataforma\n\n**Fase 2 — Estrutura**\nIdentidade visual · Categorias · Pagamentos · Frete\n\n**Fase 3 — Integrações**\nFiltro por veículo · WhatsApp · Marketplaces\n\n**Fase 4 — Lançamento**\nCadastro de produtos · SEO · Divulgação no Instagram","x":-960,"y":120,"width":480,"height":310,"color":"6"},
+		{"id":"integracoes","type":"text","text":"## 🔗 Integrações Prioritárias\n\n🔍 **Filtro de compatibilidade**\nBuscar peça pelo modelo do carro\n\n💬 **WhatsApp Business**\nBotão de suporte direto na loja\n\n📸 **Instagram Shopping**\nProdutos linkados direto no perfil\n\n🛒 **Mercado Livre / Shopee**\n_(opcional)_ Ampliar alcance via marketplaces","x":440,"y":120,"width":480,"height":300,"color":"2"},
+		{"id":"proximos","type":"text","text":"## ✅ Próximos Passos\n\n1. Definir: tem designer ou usa identidade atual?\n2. Decidir: começa pelo site ou já entra no ML?\n3. Definir prazo de lançamento\n4. Testar conta gratuita na **Tray**\n5. Montar estrutura de categorias do catálogo","x":-260,"y":320,"width":520,"height":220,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"central","fromSide":"left","toNode":"plataformas","toSide":"right"},
+		{"id":"e2","fromNode":"central","fromSide":"right","toNode":"escopo","toSide":"left"},
+		{"id":"e3","fromNode":"central","fromSide":"left","toNode":"fases","toSide":"right"},
+		{"id":"e4","fromNode":"central","fromSide":"right","toNode":"integracoes","toSide":"left"},
+		{"id":"e5","fromNode":"central","fromSide":"bottom","toNode":"proximos","toSide":"top"}
+	]
+}
