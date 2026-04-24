@@ -172,5 +172,5 @@ Após cada seção, crie uma nota filha com o que aprendeu:
 | 🟪 5 — Pipelines | 14, 15, 16 | ⬜ Não iniciada | — |
 | 🟩 6 — Projetos | 17, 18 | ⬜ Não iniciada | — |
 
-**Horas de vídeo assistidas:** 0 / ~22h
-**Seções concluídas:** 0 / 18
+**Horas de vídeo assistidas:** 1h42 / ~22h
+**Seções concluídas:** 1 / 18

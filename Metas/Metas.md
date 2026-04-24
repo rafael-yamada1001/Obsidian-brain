@@ -37,7 +37,7 @@
 - [ ] Completar Nível 2 — Prompt Engineering → **30/06/2026**
 
 ### 💼 Trabalho
-- [ ] Atualizar planilha ControleLocações com dados do David (Mobi) → **23/04/2026**
+- [x] Atualizar planilha ControleLocações com dados do David (Mobi) — *23/04/2026*
 - [ ] Preencher dados faltantes em Frotas Técnicos (anos + cidades) → **30/04/2026**
 - [ ] *(adicione suas metas de trabalho aqui)*
 

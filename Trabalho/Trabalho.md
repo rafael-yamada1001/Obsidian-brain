@@ -24,4 +24,8 @@ Trabalho/
 
 ## Resumo Financeiro
 - **Total mensal frota locada:** R$ 28.665,97
-- Atualizado em: 30/03/2026
+- Atualizado em: 23/04/2026
+
+## Atenção
+- [[Frota/Controle de Locações]] tem vencimentos de contratos em abril/2026 que precisam ser validados.
+- [[Frota/Frotas Técnicos]] ainda tem dados incompletos de ano/cidade.

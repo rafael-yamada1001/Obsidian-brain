@@ -8,6 +8,14 @@
 
 ---
 
+## Materiais relacionados
+
+- [[Jules Rimet - Apresentação.canvas|Apresentação / canvas inicial]]
+- [[Jules Rimet - Proposta Comercial|Proposta comercial]]
+- [[Trabalhos Independentes|Índice de trabalhos independentes]]
+
+---
+
 ## Contexto
 
 Empresa de auto peças de médio porte em Sertãozinho, já com clientela estabelecida e presença no Instagram. Objetivo: criar loja virtual para escalar as vendas online.
@@ -66,21 +74,53 @@ Autopeças não é apenas "subir produto". A loja precisa ajudar o cliente a nã
 
 ## Proposta comercial sugerida
 
-Vender como **implantação de e-commerce**, não apenas "fazer site".
+Vender como **consultoria e acompanhamento de implantação**, aproveitando a **Loja Pronta da Tray**. A Tray já entrega boa parte da implantação técnica, então o valor do trabalho deve estar na organização do catálogo, acompanhamento do processo, validação da loja e orientação operacional.
 
 | Pacote | Entrega | Preço sugerido |
 |---|---|---:|
-| **MVP Enxuto** | Plataforma configurada, tema ajustado, pagamentos, frete, WhatsApp, categorias e importação de até 200 produtos por CSV | R$ 3.500–5.000 |
-| **Profissional** | Tudo do MVP + estrutura melhor de catálogo, SEO básico, Instagram Shopping, até 1.000 produtos via CSV, treinamento e checklist de operação | R$ 6.500–9.000 |
-| **Completo** | Tudo do Profissional + marketplace, automações, ajustes visuais mais fortes, documentação operacional e acompanhamento de lançamento | R$ 10.000–15.000 |
+| **Acompanhamento básico** | Ajuda na escolha do plano, organização inicial de categorias, revisão da planilha, reuniões pontuais e validação antes do lançamento | R$ 800–1.200 |
+| **Gestão da implantação** | Tudo do básico + acompanhamento com a Tray, checklist de implantação, revisão de até 500 produtos, estrutura comercial, WhatsApp, frete, pagamentos e teste de compra | R$ 1.500–2.500 |
+| **Gestão completa** | Tudo da gestão + revisão de até 1.000 produtos, apoio em Instagram Shopping/marketplace, treinamento da equipe e 30 dias de suporte pós-lançamento | R$ 2.800–4.000 |
 
 ### Sugestão para apresentar
 
-Propor o pacote **Profissional por R$ 7.500**, com prazo de **4 a 6 semanas**.
+Propor **Gestão da implantação por R$ 2.000**, além do plano da Tray escolhido.
+
+Referência Tray Loja Pronta:
+
+| Plano Tray | Valor | Observação |
+|---|---:|---|
+| Crescimento / Loja Pronta 1 | 12x de R$ 168 ou R$ 2.016 à vista | até 500 produtos, implantação em até 45 dias úteis |
+| Expansão / Loja Pronta 2 | 12x de R$ 355 ou R$ 4.260 à vista | até 1.000 produtos, implantação em até 30 dias úteis |
+| Ultra / Loja Pronta 3 | sob consulta | operação maior |
+
+Estimativa realista:
+
+- Tray Loja Pronta 1 + acompanhamento: cerca de **R$ 3.500–4.000** no início.
+- Tray Loja Pronta 2 + acompanhamento: cerca de **R$ 6.260–7.260** no início.
+
+### Alternativa enxuta: Tray Crescimento
+
+Plano observado:
+
+- **Tray Crescimento:** R$ 85/mês
+- **Limite:** até 500 produtos
+- **Inclui:** integração com marketplaces, SSL, suporte via ticket/chat, apoio de implantação básico, edição de HTML/CSS, inclusão de pedido manual e relatórios avançados.
+
+Leitura:
+
+Esse plano reduz bastante o custo inicial, mas não inclui a implantação completa da Loja Pronta. Faz sentido se o cliente quiser começar de forma mais econômica e aceitar uma implantação mais guiada, com maior participação nossa na organização da loja.
+
+Sugestão de cobrança nesse cenário:
+
+- **Configuração e acompanhamento inicial:** R$ 1.200–2.000
+- **Manutenção/suporte opcional:** R$ 300–500/mês
+- **Prazo estimado:** 3 a 5 semanas, dependendo da qualidade da planilha de produtos.
 
 Deixar fora do valor:
 
 - mensalidade da plataforma;
+- contratação da Loja Pronta Tray;
 - domínio;
 - tema pago, se necessário;
 - aplicativos pagos;
@@ -92,8 +132,8 @@ Deixar fora do valor:
 
 | Plano | Escopo | Preço sugerido |
 |---|---|---:|
-| **Suporte leve** | Pequenos ajustes, dúvidas, acompanhamento pontual e correções simples | R$ 600–900/mês |
-| **Acompanhamento comercial** | Suporte + ajustes recorrentes, cadastro/organização de produtos e melhorias mensais | R$ 1.200–1.800/mês |
+| **Suporte leve** | Pequenos ajustes, dúvidas e acompanhamento pontual | R$ 300–500/mês |
+| **Operação assistida** | Suporte + ajustes recorrentes, organização de produtos e melhorias mensais | R$ 600–1.000/mês |
 
 ---
 
@@ -132,9 +172,24 @@ Deixar fora do valor:
 
 ---
 
+## Decisões após conversa com cliente
+
+| Item | Decisão | Data |
+|---|---|---|
+| Plataforma escolhida | — | — |
+| Pacote fechado | — | — |
+| Valor fechado | — | — |
+| Prazo combinado | — | — |
+| Responsável pelo envio da planilha de produtos | — | — |
+| Próxima ação | — | — |
+
+---
+
 ## Sessões
 
 | Data | O que foi feito |
 |------|----------------|
 | 2026-04-23 | Levantamento inicial, comparativo de plataformas, definição do escopo |
 | 2026-04-24 | Revisão da estratégia, recomendação de plataforma, pacotes comerciais e sugestão de preço |
+| 2026-04-24 | Recalibragem da proposta considerando os planos Loja Pronta da Tray |
+| 2026-04-24 | Planejamento alternativo com plano Tray Crescimento de R$ 85/mês |

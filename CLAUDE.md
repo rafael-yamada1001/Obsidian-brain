@@ -22,6 +22,7 @@
 
 ## Estrutura do Vault
 ```
+Início.md          → painel principal do segundo cérebro
 00-Inbox/          → captura rápida, triage depois
 Trabalho/          → processos e controles profissionais
   Frota/           → locações e veículos de técnicos
@@ -34,6 +35,7 @@ Estudos/           → trilhas de aprendizado organizadas por área
 Ideias/            → dump livre, sem filtro
 Reunioes/          → formato AAAA-MM-DD - assunto.md
 Recursos/          → referências, links, ferramentas
+Trabalhos Independentes/ → freelas, consultorias e projetos avulsos
 ```
 
 ## Regras de Operação
@@ -53,6 +55,8 @@ Recursos/          → referências, links, ferramentas
 - Datas no formato AAAA-MM-DD
 - Notas de estudo linkam para o plano principal com [[]]
 - Nunca deletar conteúdo existente sem confirmar com o usuário
+- Tratar arquivos fora de `.claude/worktrees/` como fonte principal do vault
+- Ignorar `.claude/worktrees/` em revisões gerais, salvo pedido explícito
 
 ## Slash Commands Disponíveis
 | Comando | O que faz |

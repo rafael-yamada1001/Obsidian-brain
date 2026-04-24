@@ -63,6 +63,7 @@
 
 ## Vencimentos Próximos
 > Renovar antes do vencimento para evitar cobrança adicional
+> Revisão em 2026-04-24: todos os vencimentos listados abaixo já passaram e precisam ser validados/atualizados.
 
 | Placa | Condutor | Vencimento |
 |-------|---------|------------|
