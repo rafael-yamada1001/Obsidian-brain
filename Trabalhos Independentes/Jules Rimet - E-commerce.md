@@ -35,6 +35,7 @@ Empresa de auto peças de médio porte em Sertãozinho, já com clientela estabe
 |---|---|---|---|
 | **Tray** | R$ 99–449 | Baixo-médio | ⭐ 1ª opção |
 | **Nuvemshop** | R$ 69–449 | Baixo | ⭐ 2ª opção |
+| Hostinger Criador de Sites Business | R$ 11,99–13,99 promocional / renova ~R$ 64,99 | Baixo | opção barata para teste |
 | Loja Integrada | R$ 54–239 | Baixo | opção econômica |
 | Shopify | US$ 29–299 | Baixo-médio | não priorizar agora |
 | WooCommerce | variável | Alto | evitar neste momento |
@@ -45,6 +46,8 @@ Empresa de auto peças de médio porte em Sertãozinho, já com clientela estabe
 
 **Loja Integrada** pode ser apresentada como opção mais barata para testar demanda, mas pode ficar limitada se o catálogo crescer rápido.
 
+**Hostinger** é uma opção de custo inicial baixo para criar uma loja simples com até 1.000 produtos, domínio grátis no primeiro ano, e-mail e recursos de IA. Atenção: o preço promocional exige contratação longa e pagamento do período completo; a renovação informada fica perto de R$ 64,99/mês. Boa para teste/vitrine com vendas simples, mas menos especializada em e-commerce brasileiro e autopeças do que Tray.
+
 **Shopify** não deve ser prioridade agora: é forte, mas cobra em dólar, pode depender de apps pagos e não nasce tão adaptada ao Brasil quanto Tray/Nuvemshop.
 
 **WooCommerce** só faria sentido se o cliente quisesse algo muito personalizado. Para este projeto aumenta manutenção, risco técnico e dependência do desenvolvedor.
@@ -54,6 +57,7 @@ Empresa de auto peças de médio porte em Sertãozinho, já com clientela estabe
 - Se lançar com até **500 produtos**, começar com **Tray Crescimento**.
 - Se lançar perto de **1.000 produtos ou mais**, considerar **Tray Expansão**.
 - Se o cliente quiser algo mais simples e visual, comparar com **Nuvemshop Impulso**.
+- Se o critério principal for custo inicial, avaliar **Hostinger Criador de Sites Business**, sabendo que pode limitar a operação conforme a loja crescer.
 - Evitar desenvolvimento próprio no início; melhor validar vendas e operação com plataforma pronta.
 
 ---
@@ -193,3 +197,4 @@ Deixar fora do valor:
 | 2026-04-24 | Revisão da estratégia, recomendação de plataforma, pacotes comerciais e sugestão de preço |
 | 2026-04-24 | Recalibragem da proposta considerando os planos Loja Pronta da Tray |
 | 2026-04-24 | Planejamento alternativo com plano Tray Crescimento de R$ 85/mês |
+| 2026-04-24 | Avaliação da Hostinger como opção barata para teste inicial |
