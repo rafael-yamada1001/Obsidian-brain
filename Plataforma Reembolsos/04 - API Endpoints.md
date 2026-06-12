@@ -7,7 +7,13 @@ tags: [projeto, reembolsos, api]
 Parte de [[00 - Visão Geral]]. Base: `app.empresa.com.br/api` (dev: `localhost:8080/api`). Swagger em `/swagger` (somente Development).
 
 **Autenticação:** JWT Bearer (12 h), claims `sub`, `email`, `nome`, `role`. Senhas com BCrypt.
-**Autorização:** `[Authorize(Roles = …)]` em todos os endpoints; técnico só enxerga as próprias despesas (filtro server-side — despesa alheia retorna 404). **Admin tem acesso a todos os endpoints** (papel incluído em todas as listas de Roles desde 2026-06-12).
+**Autorização:** `[Authorize(Roles = …)]`; papéis: `administrativo` (lança), `aprovador` (dono assina), `financeiro` (paga), `admin` (tudo). Todos os papéis logados veem todas as despesas (técnicos não têm login). Lançamento/edição/envio/anexos: `administrativo,admin`. Endpoints removidos em 2026-06-12: `GET /despesas/dashboard` e `PUT /usuarios/me/chave-pix`.
+
+## Técnicos (cadastro sem login)
+| Método | Rota | Papéis |
+|---|---|---|
+| GET | `/api/tecnicos?incluirInativos=` | autenticado |
+| POST / PUT | `/api/tecnicos` | administrativo, admin — valida chave PIX; **troca de chave alerta donos+admin por e-mail** |
 
 > Usina é opcional no `POST/PUT /api/despesas` desde 2026-06-12 (o portal nem envia o campo); a coluna saiu do CSV.
 

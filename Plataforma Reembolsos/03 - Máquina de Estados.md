@@ -32,8 +32,7 @@ stateDiagram-v2
 | Última aprovação exigida (aprovador distinto) → FINANCEIRO **automático** | `SegundaAprovacao_…_VaiAutomaticamenteParaFinanceiro` |
 | Aprovações independentes, qualquer ordem | `AprovacoesIndependentes_OrdemNaoImporta` |
 | Mesmo aprovador não aprova 2× | `MesmoAprovador_NaoPodeAprovarDuasVezes` |
-| **Ninguém aprova/rejeita a própria despesa** | `NinguemAprovaAPropriaDespesa` / `NinguemRejeita…` |
-| Só papel `aprovador` aprova; inativo não aprova | `ApenasAprovadorPodeAprovar` / `AprovadorInativo_NaoAprova` |
+| Só papel `aprovador` (ou admin) assina; inativo não | `ApenasAprovadorOuAdminPodeAprovar` / `AprovadorInativo_NaoAprova` |
 | Rejeição: motivo obrigatório, qualquer etapa antes de PAGA | `Rejeitar_SemMotivo_Bloqueia` / `Rejeitar_DespesaPaga_Bloqueia` |
 | Na etapa FINANCEIRO, só o financeiro rejeita (ex.: PIX recusado) | `Financeiro_PodeRejeitar_NaEtapaFinanceiro` |
 | Reenvio zera aprovações (ficam `ativa=false`, histórico preservado) | `Reenvio_AposRejeicao_ZeraAprovacoesAnteriores` |
@@ -46,6 +45,9 @@ stateDiagram-v2
 
 > [!note] Mudança 2026-06-12 (pedido do dono)
 > A exigência de **dupla aprovação virou configuração**: `aprovacoes_necessarias` na tabela `configuracoes` (Admin → Configurações), **padrão 1** — um dono aprova sozinho e a despesa já vai ao financeiro. Voltar para 2 não exige código. `APROVADA_PARCIAL` só ocorre com exigência ≥ 2.
+
+> [!note] Fluxo reestruturado (2026-06-12, mais tarde)
+> Quem lança é o **administrativo** (papel novo); técnicos viraram cadastro sem login (entidade `Tecnico`). Com isso a regra **"ninguém aprova a própria despesa" foi removida** — a separação de funções passou a ser por papel (quem lança não assina, quem assina não paga). `MarcarPaga` agora recebe `Tecnico` (cadastro) e congela a chave PIX dele. Testes removidos: `NinguemAprova/RejeitaAPropriaDespesa`. **79 testes** após a mudança.
 
 > [!warning] Admin tem acesso total (2026-06-12)
 > Decisão de produto: o papel **admin pode tudo** — lançar, aprovar, rejeitar e pagar, **inclusive a própria despesa** — para o dono operar/testar sem trocar de usuário (`ValidarDecisor` retorna cedo para admin; teste `Admin_PodeAprovarPagarERejeitar_InclusiveAPropriaDespesa`). As restrições continuam valendo para os demais papéis. Trade-off consciente: o controle anti-abuso "ninguém aprova a própria despesa" não se aplica ao admin.

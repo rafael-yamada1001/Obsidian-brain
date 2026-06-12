@@ -10,7 +10,12 @@ Repositório: `C:\Repositories\empresa` (git, commit inicial `47fd026`).
 
 ## O problema
 
-Técnicos que prestam serviço em usinas lançam despesas de campo (alimentação, combustível, hospedagem, pedágio) com foto do comprovante. **Houve abuso no passado**, então toda despesa exige aprovação de **dois aprovadores** (os donos) antes de ir para pagamento via PIX.
+Técnicos que prestam serviço em usinas geram despesas de campo (alimentação, combustível, hospedagem, pedágio). **Houve abuso no passado**, então o fluxo tem separação de funções e trilha de auditoria completa.
+
+## Fluxo vigente (desde 2026-06-12)
+
+**Administrativo lança → dono assina → financeiro paga.**
+Os técnicos **não usam o sistema**: entregam os extratos ao administrativo, que digita tudo. Técnico é só um cadastro (nome + chave PIX de destino). O nº de assinaturas de dono é configurável (padrão **1**). Papéis: `administrativo`, `aprovador` (dono), `financeiro`, `admin` (faz tudo).
 
 ## Os dois produtos
 

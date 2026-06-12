@@ -22,9 +22,14 @@ erDiagram
 ## Tabelas
 
 ### usuarios
-`id, nome, email (único), senha_hash (BCrypt), papel, ativo, chave_pix, tipo_chave_pix`
-- Papéis: `Tecnico | Aprovador | Financeiro | Admin`
+`id, nome, email (único), senha_hash (BCrypt), papel, ativo` (+ chave_pix legada, sem uso)
+- Papéis ativos: `Administrativo | Aprovador | Financeiro | Admin` (`Tecnico` é legado — técnicos não têm login desde 2026-06-12; os antigos ficaram `ativo=false`)
+
+### tecnicos *(novo, 2026-06-12 — migration `TecnicosSeparados`)*
+`id, nome, chave_pix, tipo_chave_pix, ativo`
+- Cadastro **sem login**: define para quem (e para qual chave PIX) vai cada reembolso
 - Tipos de chave: `Cpf | Email | Telefone | Aleatoria` — **validação de formato** em `PixValidator` (CPF com dígitos verificadores, e-mail, E.164 BR, UUID)
+- A migration copiou os antigos usuários-técnicos preservando IDs (despesas existentes continuam válidas); `despesas.tecnico_id` agora referencia esta tabela
 
 ### usinas
 `id, nome, cliente, cidade, ativo`
