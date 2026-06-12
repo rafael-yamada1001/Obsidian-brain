@@ -20,7 +20,8 @@ Parte de [[00 - Visão Geral]]. Vite + React 18 + React Router, **mobile-first**
 - **Fila de pagamento** (`/financeiro`): técnico, valor, **chave PIX com botão copiar**, **QR Code PIX** (lib `qrcode` renderiza o BR Code vindo da API — escaneia no app do banco com valor já incluído), botão **"PIX copia e cola"**, total da fila, **Exportar CSV** (com coluna copia-e-cola), "Marcar como paga" com observação opcional.
 
 ### Admin
-- **Administração** (`/admin`): abas Usuários / Usinas / Categorias / Configurações (prazo de lançamento). Admin também acessa a fila do financeiro.
+- **Acesso total** (2026-06-12): menu com Despesas, Lançar, Aprovação, Pagamentos e Admin — o dono opera todo o fluxo com um único login.
+- **Administração** (`/admin`): abas Usuários / Categorias / Configurações (prazo de lançamento e nº de aprovações). A aba Usinas foi removida junto com o campo no lançamento.
 
 ### Todos
 - **Detalhe da despesa** (`/despesa/:id`): dados, comprovantes, alertas, pagamento e **histórico de auditoria** em timeline.

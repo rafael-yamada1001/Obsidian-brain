@@ -47,6 +47,11 @@ stateDiagram-v2
 > [!note] Mudança 2026-06-12 (pedido do dono)
 > A exigência de **dupla aprovação virou configuração**: `aprovacoes_necessarias` na tabela `configuracoes` (Admin → Configurações), **padrão 1** — um dono aprova sozinho e a despesa já vai ao financeiro. Voltar para 2 não exige código. `APROVADA_PARCIAL` só ocorre com exigência ≥ 2.
 
+> [!warning] Admin tem acesso total (2026-06-12)
+> Decisão de produto: o papel **admin pode tudo** — lançar, aprovar, rejeitar e pagar, **inclusive a própria despesa** — para o dono operar/testar sem trocar de usuário (`ValidarDecisor` retorna cedo para admin; teste `Admin_PodeAprovarPagarERejeitar_InclusiveAPropriaDespesa`). As restrições continuam valendo para os demais papéis. Trade-off consciente: o controle anti-abuso "ninguém aprova a própria despesa" não se aplica ao admin.
+>
+> Também em 2026-06-12: **usina deixou de ser pedida no lançamento** (`despesas.usina_id` agora é NULL, migration `UsinaOpcional`; cadastro/endpoints mantidos para histórico e eventual retorno).
+
 ## Nota de implementação
 
 O estado `APROVADA` existe na máquina conceitual, mas a transição `APROVADA → FINANCEIRO` é automática e atômica na segunda aprovação — o código grava **duas entradas no audit log** (`aprovou_despesa` com estado novo `Aprovada` + `transicao_automatica_financeiro`) e persiste o status final `Financeiro`. Nenhuma despesa "fica parada" em APROVADA.
