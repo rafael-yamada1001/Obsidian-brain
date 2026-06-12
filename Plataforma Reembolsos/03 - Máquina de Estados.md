@@ -27,8 +27,9 @@ stateDiagram-v2
 | Enviar exige comprovante se a categoria obriga | `Enviar_SemComprovante_QuandoCategoriaExige_Bloqueia` |
 | Prazo de lançamento N dias (config, padrão 30); limite exato passa | `Enviar_ForaDoPrazoDeLancamento_Bloqueia` / `ExatamenteNoLimite` |
 | Data futura e valor ≤ 0 bloqueiam | `Enviar_DataNoFuturo_Bloqueia` / `ValorZeroOuNegativo` |
-| 1ª aprovação → APROVADA_PARCIAL | `PrimeiraAprovacao_VaiParaAprovadaParcial` |
-| 2ª aprovação (aprovador distinto) → FINANCEIRO **automático** | `SegundaAprovacao_…_VaiAutomaticamenteParaFinanceiro` |
+| **Nº de aprovações é configurável** (`aprovacoes_necessarias`, padrão **1**) | `AprovacaoUnica_PrimeiraAprovacaoJaVaiParaFinanceiro` / `TresAprovacoesNecessarias_RespeitaQuantidade` |
+| Com exigência 2: 1ª aprovação → APROVADA_PARCIAL | `PrimeiraAprovacao_VaiParaAprovadaParcial` |
+| Última aprovação exigida (aprovador distinto) → FINANCEIRO **automático** | `SegundaAprovacao_…_VaiAutomaticamenteParaFinanceiro` |
 | Aprovações independentes, qualquer ordem | `AprovacoesIndependentes_OrdemNaoImporta` |
 | Mesmo aprovador não aprova 2× | `MesmoAprovador_NaoPodeAprovarDuasVezes` |
 | **Ninguém aprova/rejeita a própria despesa** | `NinguemAprovaAPropriaDespesa` / `NinguemRejeita…` |
@@ -41,7 +42,10 @@ stateDiagram-v2
 | Técnico sem chave PIX não recebe | `MarcarPaga_TecnicoSemChavePix_Bloqueia` |
 | Edição só em RASCUNHO/REJEITADA (aprovada/paga imutável) | `Edicao_SoEmRascunhoOuRejeitada` |
 
-**69 testes** no total (incluindo `PixValidatorTests`). Rodar: `cd api && dotnet test`.
+**80 testes** no total (incluindo `PixValidatorTests` e `PixBrCodeTests`). Rodar: `cd api && dotnet test`.
+
+> [!note] Mudança 2026-06-12 (pedido do dono)
+> A exigência de **dupla aprovação virou configuração**: `aprovacoes_necessarias` na tabela `configuracoes` (Admin → Configurações), **padrão 1** — um dono aprova sozinho e a despesa já vai ao financeiro. Voltar para 2 não exige código. `APROVADA_PARCIAL` só ocorre com exigência ≥ 2.
 
 ## Nota de implementação
 

@@ -34,8 +34,8 @@ Parte de [[00 - Visão Geral]]. Base: `app.empresa.com.br/api` (dev: `localhost:
 | GET | `/api/despesas/{id}` | todos | inclui flag de duplicidade |
 | GET | `/api/despesas/dashboard` | tecnico | totais do mês (pendente/aprovado/pago) |
 | GET | `/api/despesas/fila-aprovacao` | aprovador | com alertas de limite e duplicidade |
-| GET | `/api/despesas/fila-financeiro` | financeiro, admin | com chave PIX do técnico |
-| GET | `/api/despesas/fila-financeiro/csv` | financeiro, admin | CSV `;` com BOM UTF-8 p/ Excel; exportação auditada |
+| GET | `/api/despesas/fila-financeiro` | financeiro, admin | com chave PIX e **`pixCopiaECola` (BR Code com valor)** p/ QR |
+| GET | `/api/despesas/fila-financeiro/csv` | financeiro, admin | CSV `;` com BOM UTF-8 p/ Excel + coluna `pix_copia_e_cola`; auditado |
 | GET | `/api/despesas/{id}/audit` | todos (com posse) | trilha completa |
 
 ## Anexos
@@ -52,7 +52,9 @@ Parte de [[00 - Visão Geral]]. Base: `app.empresa.com.br/api` (dev: `localhost:
 | **PUT** | **`/api/usuarios/me/chave-pix`** | **qualquer autenticado — dispara e-mail de alerta p/ aprovadores+admin** |
 | GET | `/api/usinas`, `/api/categorias` | todos (só ativos; admin vê inativos com `?incluirInativas=true`) |
 | POST/PUT | `/api/usinas`, `/api/categorias` | admin |
-| GET/PUT | `/api/configuracoes` | admin (`prazo_lancamento_dias`, validado 1–365) |
+| GET/PUT | `/api/configuracoes` | admin (`prazo_lancamento_dias` 1–365; `aprovacoes_necessarias` 1–5, padrão 1) |
+
+**BR Code PIX:** `Domain/PixBrCode.cs` gera o payload EMV-MPM oficial (testado contra o exemplo do manual do BCB, CRC16 `1D3D`). Recebedor = técnico (nome sem acentos, truncado em 25), valor da despesa embutido, `txid = DESPESA{id}` para conciliação.
 
 ## Notificações por e-mail (SMTP via .env)
 - Despesa **enviada** → aprovadores

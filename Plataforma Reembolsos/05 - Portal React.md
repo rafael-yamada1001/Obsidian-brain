@@ -17,7 +17,7 @@ Parte de [[00 - Visão Geral]]. Vite + React 18 + React Router, **mobile-first**
 - **Fila** (`/aprovacao`): cartões com foto do comprovante (miniatura), **destaque vermelho para limite excedido**, **alerta amarelo de duplicidade** (mesmo técnico + data + valor). Aprovação individual e **em massa** (checkboxes + botão "Aprovar N selecionadas", erros reportados por item). Rejeição exige motivo inline.
 
 ### Financeiro
-- **Fila de pagamento** (`/financeiro`): técnico, valor, **chave PIX com botão copiar**, total da fila, **Exportar CSV** (para lote PIX no banco), "Marcar como paga" com observação opcional.
+- **Fila de pagamento** (`/financeiro`): técnico, valor, **chave PIX com botão copiar**, **QR Code PIX** (lib `qrcode` renderiza o BR Code vindo da API — escaneia no app do banco com valor já incluído), botão **"PIX copia e cola"**, total da fila, **Exportar CSV** (com coluna copia-e-cola), "Marcar como paga" com observação opcional.
 
 ### Admin
 - **Administração** (`/admin`): abas Usuários / Usinas / Categorias / Configurações (prazo de lançamento). Admin também acessa a fila do financeiro.
