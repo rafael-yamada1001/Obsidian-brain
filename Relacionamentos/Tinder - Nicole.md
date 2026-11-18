@@ -1,7 +1,7 @@
 # Tinder - Nicole
 **Criado em:** 2026-11-18
 **Plataforma:** Tinder (match feito)
-**Estágio:** encerrado (match desfeito)
+**Estágio:** 2 - Criando afinidade (match voltou, conversa fluindo)
 **Tags:** #relacionamentos #qingsheng
 
 ---
@@ -41,4 +41,5 @@ Provavelmente real: selo de verificação, sardas, fios soltos, granulação de 
 ## Histórico
 - 2026-11-18: match feito; aberturas definidas, nenhuma mensagem enviada ainda.
 - 2026-11-18 09:50: abri com "uma ucraniana aqui em Ribeirão? ... prazer, eu". Ela respondeu rindo e entrou na brincadeira: "prazer então amor da minha vida". Não respondeu de onde veio.
-- 2026-11-18 ~10:30: match desfeito.
+- 2026-11-18 ~10:30: match sumiu (bug de verificação da conta dela, não foi unmatch).
+- 2026-11-18 11:49: mandei "pronto, casados..." + "aconteceu alguma coisa? ... fiquei até chateado". 11:50 ela respondeu em 1 min, 5 mensagens: mora aqui há quase 7 anos e "não sai mais por um BOOOM tempo"; conta desativou por bug de verificação e voltou ("sempre acontece isso").
