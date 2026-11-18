@@ -1,7 +1,7 @@
 # Tinder - Nicole
 **Criado em:** 2026-11-18
 **Plataforma:** Tinder (match feito)
-**Estágio:** 1 → 2 (ela entrou na brincadeira)
+**Estágio:** encerrado (match desfeito)
 **Tags:** #relacionamentos #qingsheng
 
 ---
@@ -41,3 +41,4 @@ Provavelmente real: selo de verificação, sardas, fios soltos, granulação de 
 ## Histórico
 - 2026-11-18: match feito; aberturas definidas, nenhuma mensagem enviada ainda.
 - 2026-11-18 09:50: abri com "uma ucraniana aqui em Ribeirão? ... prazer, eu". Ela respondeu rindo e entrou na brincadeira: "prazer então amor da minha vida". Não respondeu de onde veio.
+- 2026-11-18 ~10:30: match desfeito.
