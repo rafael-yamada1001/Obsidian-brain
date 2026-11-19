@@ -48,3 +48,4 @@ Provavelmente real: selo de verificação, sardas, fios soltos, granulação de 
 - 2026-11-18 20:49: confirmou que o **sonho é ser professora que ensina criança a olhar as estrelas**; vive ocupada e esquece coisas básicas do dia a dia; às vezes falta aula. Acha TI legal, "queria fazer", perguntou se é difícil.
 - 2026-11-18 22:42: eu propus trocar aulas (ensino TI, ela ensina constelações; mencionei ideia de fazer trilha). Ela: "combinado então, te ensino astronomia e vc me ensina TI".
 - Próximo gancho: a troca de aulas → futura "aula prática" de céu/estrelas.
+- 2026-11-19 08:17: mandei "bom dia, professora 😄 ... qual constelação dá pra achar fácil aqui de Ribeirão?". 08:49 ela respondeu animada (6 msgs): em novembro a mais fácil é Órion, também tem as Três Marias, "lindass".
