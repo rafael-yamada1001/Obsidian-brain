@@ -1,7 +1,7 @@
 # Tinder - Nicole
 **Criado em:** 2026-11-18
 **Plataforma:** Tinder → Instagram (@rusalqs)
-**Estágio:** 2 - Criando afinidade (combinaram trocar aulas: astronomia x TI)
+**Estágio:** 3 → 4 (ela topou "aula prática" de ver o Órion ao vivo)
 **Tags:** #relacionamentos #qingsheng
 
 ---
@@ -49,3 +49,4 @@ Provavelmente real: selo de verificação, sardas, fios soltos, granulação de 
 - 2026-11-18 22:42: eu propus trocar aulas (ensino TI, ela ensina constelações; mencionei ideia de fazer trilha). Ela: "combinado então, te ensino astronomia e vc me ensina TI".
 - Próximo gancho: a troca de aulas → futura "aula prática" de céu/estrelas.
 - 2026-11-19 08:17: mandei "bom dia, professora 😄 ... qual constelação dá pra achar fácil aqui de Ribeirão?". 08:49 ela respondeu animada (6 msgs): em novembro a mais fácil é Órion, também tem as Três Marias, "lindass".
+- 2026-11-19 09:11: mandei "aula prática... vai ter que me mostrar o Órion ao vivo um dia" + "vc é de que parte de rp?" + "Três Marias não fazem parte do Órion?". Ela: "combinado entãoo 🙌🙌"; mora "perto do shopping" (não tem noção de localização); explicou que as Três Marias são um asterismo (disse que não fazem parte do Órion).
