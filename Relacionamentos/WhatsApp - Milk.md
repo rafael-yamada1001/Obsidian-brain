@@ -39,4 +39,4 @@
 - Manter outras conversas e a própria rotina para não pesar.
 
 ## Observações
-<!-- Anote aqui o que lembrar depois -->
+Mora com Ricardo Nascimento, amigo talvez? que conheceu no valorant
